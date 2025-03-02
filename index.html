@@ -29,11 +29,11 @@
     <section data-cy="hw1-section-about-pre">
         <!-- 2) В этом разделе создай выпадающий список с разными городами (не меньше 3-х). Свой город сделай вторым в этом списке. С помощью специального атрибута, сделай так, чтобы твой город всегда был выбранным по умолчанию  -->
         <select>
-            <option selected disabled>ASHGABAT</option>
-            <option>MINSK</option>
-            <option>ASHGABAT</option>
-            <option>NYU-YORK</option>
-        </select>
+            <option value="city1">Москва</option>
+            <option value="city2" selected>ASHGABAT</option>
+            <option value="city3">Санкт-Петербург</option>
+            <option value="city4">Новосибирск</option>
+          </select>
         <div data-cy="hw1-unordered-list-box-pre">
             <!-- 3) В этом разделе создай 2 дочерних элемента: -->
 
@@ -86,11 +86,12 @@
     <hr>
         
         <table data-cy="hw-about-table-pre">
-                    <table border="1">
+                    
             <!-- 8) В таблице сделай 5 строк и 3 столбца. 
                         - В первой строке ячейки заголовков, в остальных обычные ячейки
                         - Добавь границы для всей таблицы с помощью специального атрибута border="". Он устарел, но работает
                         - В последнем ряду первая ячейка должна занимать 2 столбца (как должно выглядеть - смотри образец). Таблицу можно заполнять любыми данными -->
+                        <table border="1">
                         <tr>
                             <th>p/p</th>
                             <th>name</th>
@@ -115,7 +116,7 @@
                             
                         </tr>
                         <tr>
-                            <td colspan="2" style="text-align: left"> Total:</td>
+                            <td colspan="2"> Total: </td>
                             <td>4</td>
                            
                         </tr>
