@@ -1,41 +1,57 @@
 * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
     /* Свойства для сброса начальных стилей элементов */
 }
 
 body {
-
+font-family: 'rubik',sans-serif;
 }
+
 
 header {
     width: 1440px;
     height: 70px;
     background-color: blue;
+    padding: 14px 0;
+    padding-left: 130px;
     /* Стили для хедера */
 }
 
 header span {
-    width:146px;
-    height: 24px;
-    top:23px;
-    color: #ffff;
-    
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
     /* Стили для текста в хедере IT-INCUBATOR */
 }
 
 .main-section {
+    width: 1418px;
+    height: 1024px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #fafaff;
     /* Стили для первой секции */
 }
 
 .main-title {
+    font-weight: 700;
+    font-size: 48px;
+    color: #303030;
     /* Стили для заголовка в первой секции */
 }
 
 .main-text {
+    font-weight: 400;
+font-size: 18px;
+color: #303030;
     /* Стили для текста в первой секции */
 }
 
 .main-image {
-    width:715px;
+    width:704px;
     height:508px;
     top:230px
     /* Стили для изображения в первой секции */
@@ -43,21 +59,24 @@ header span {
 
 
 .about-section {
+    width: 1440px;
+    height: 883px;
     /* Стили для второй секции */
 }
 
 select {
     width: 150px;
     height: 36px;
-    top: 1194px;
-   border: 1px;
     /* Стили для выпадающего списка */
 }
 
 .section-title {
     /* Стили для заголовков во второй секции */
 }
-
+button{
+    border: none;
+    background-color: transparent;
+}
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
 }
@@ -81,7 +100,9 @@ select {
 .line {
     /* Стили для линии */
 }
-
+ul{
+    list-style: none;
+}
 table {
     /* Стили для таблицы */
 }
@@ -103,5 +124,9 @@ footer {
     height:17px;
     left: 1px;
     color: #2965f1;
+    
     /* Стили для футера */
+}
+a{
+    text-decoration:none ;
 }
