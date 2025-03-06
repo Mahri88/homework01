@@ -71,6 +71,8 @@ select {
 }
 
 .section-title {
+    width: 1440px;
+height: 883px;
     /* Стили для заголовков во второй секции */
 }
 button{
@@ -78,36 +80,75 @@ button{
     background-color: transparent;
 }
 .frameworks-list {
+    font-weight: 700;
+    font-size: 24px;
+    color: #303030;
+    margin-bottom: 50px;
+    margin-bottom: 50px;
     /* Стили для маркированного списка во второй секции */
 }
 
 .books-list {
+    width: 670px;
+    height: 57px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #303030;
+    background: #fff;
     /* Стили для нумерованного списка во второй секции */
 }
 
 .label {
+    font-weight: 400;
+font-size: 16px;
+color: #303030;
+    background: #fff;
+    width: 475px;
+height: 73px;
     /* Стили для подписей чекбоксов */
 }
 
 .text-field {
+    font-weight: 400;
+font-size: 16px;
+color: rgba(48, 48, 48, 0.2);
+    width: 330px;
+height: 36px;
     /* Стили для односточного поля ввода текста */
 }
 
 .btn {
+    border: 1px solid  black;
+    border-radius: 5px;
+width: 125px;
+height: 36px;
+background: #2965f1;
+font-weight: 700;
+font-size: 14px;
+color: #fff;
+font-family: "Inter", sans-serif;
     /* Стили для кнопки */
 }
 
 .line {
+    margin-top: 30px;
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    width: 1440px;
+    height: 0px;
     /* Стили для линии */
 }
-ul{
-    list-style: none;
-}
+
 table {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    width: 300px;
+    height: 196px;   
     /* Стили для таблицы */
 }
 
 th, td {
+    width: 113px;
+    height: 40px;
     /* Стили для ячеек таблицы */
 }
 
@@ -115,18 +156,16 @@ footer {
     width: 1440px;
     height: 70px;
     top:1977px;
-    background-color: #a3a7ff;
+    background-color:rgba(163, 167, 255, 0.3)
     /* Стили для футера */
 }
 
 .footer-link {
-    width:78px;
-    height:17px;
-    left: 1px;
-    color: #2965f1;
-    
+    font-weight: 400;
     /* Стили для футера */
 }
 a{
+   padding-top: 15px;
+    color: rgba(41, 101, 241, 1);
     text-decoration:none ;
 }
