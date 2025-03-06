@@ -6,15 +6,16 @@
 }
 
 body {
-font-family: 'inter',sans-serif;
-color: #303030;;
+    font-family: 'inter', sans-serif;
+    color: #303030;
+    ;
 }
 
 
 header {
     width: 1440px;
     height: 70px;
-    background-color:#2965f1;
+    background-color: #2965f1;
     padding: 14px 0;
     padding-left: 130px;
     /* Стили для хедера */
@@ -22,7 +23,7 @@ header {
 
 header span {
     font-family: "Inter", sans-serif;
-    font-weight:700px;
+    font-weight: 700px;
     font-size: 20px;
     color: #fff;
     /* Стили для текста в хедере IT-INCUBATOR */
@@ -46,16 +47,16 @@ header span {
 
 .main-text {
     font-weight: 400;
-font-size: 18px;
-color: #303030;
+    font-size: 18px;
+    color: #303030;
     /* Стили для текста в первой секции */
 }
 
 .main-image {
-    width:704px;
-    height:508px;
-    top:230px
-    /* Стили для изображения в первой секции */
+    width: 704px;
+    height: 508px;
+    top: 230px
+        /* Стили для изображения в первой секции */
 }
 
 
@@ -73,13 +74,15 @@ select {
 
 .section-title {
     width: 1440px;
-height: 883px;
+    height: 883px;
     /* Стили для заголовков во второй секции */
 }
-button{
+
+button {
     border: none;
     background-color: transparent;
 }
+
 .frameworks-list {
     font-weight: 700;
     font-size: 24px;
@@ -100,34 +103,34 @@ button{
 }
 
 .label {
-    font-weight: 400;
-font-size: 16px;
-color: #303030;
+    font-weight: 400px;
+    font-size: 16px;
+    color: #303030;
     background: #fff;
     width: 475px;
-height: 73px;
+    height: 73px;
     /* Стили для подписей чекбоксов */
 }
 
 .text-field {
     font-weight: 400;
-font-size: 16px;
-color: rgba(48, 48, 48, 0.2);
+    font-size: 16px;
+    color: rgba(48, 48, 48, 0.2);
     width: 330px;
-height: 36px;
+    height: 36px;
     /* Стили для односточного поля ввода текста */
 }
 
 .btn {
-    border: 1px solid  black;
+    border: 1px solid black;
     border-radius: 5px;
-width: 125px;
-height: 36px;
-background: #2965f1;
-font-weight: 700;
-font-size: 14px;
-color: #fff;
-font-family: "Inter", sans-serif;
+    width: 125px;
+    height: 36px;
+    background: #2965f1;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
     /* Стили для кнопки */
 }
 
@@ -143,11 +146,12 @@ table {
     margin-top: 40px;
     margin-bottom: 80px;
     width: 300px;
-    height: 196px;   
+    height: 196px;
     /* Стили для таблицы */
 }
 
-th, td {
+th,
+td {
     width: 113px;
     height: 40px;
     /* Стили для ячеек таблицы */
@@ -156,17 +160,18 @@ th, td {
 footer {
     width: 1440px;
     height: 70px;
-    top:1977px;
-    background-color:rgba(163, 167, 255, 0.3)
-    /* Стили для футера */
+    top: 1977px;
+    background-color: rgba(163, 167, 255, 0.3)
+        /* Стили для футера */
 }
 
 .footer-link {
     font-weight: 400;
     /* Стили для футера */
 }
-a{
-   padding-top: 15px;
+
+a {
+    padding-top: 15px;
     color: rgba(41, 101, 241, 1);
-    text-decoration:none ;
+    text-decoration: none;
 }
