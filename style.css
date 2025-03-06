@@ -39,14 +39,14 @@ header span {
 }
 
 .main-title {
-    font-weight: 700;
+    font-weight: 700px;
     font-size: 48px;
     color: #303030;
     /* Стили для заголовка в первой секции */
 }
 
 .main-text {
-    font-weight: 400;
+    font-weight:400px;
     font-size: 18px;
     color: #303030;
     /* Стили для текста в первой секции */
@@ -143,6 +143,7 @@ button {
 }
 
 table {
+    border: 1px solid rgba(149, 161, 187, 1);
     margin-top: 40px;
     margin-bottom: 80px;
     width: 300px;
@@ -152,16 +153,19 @@ table {
 
 th,
 td {
+    padding: 12px 15px;
     width: 113px;
     height: 40px;
     /* Стили для ячеек таблицы */
 }
 
 footer {
+    padding: 26px 0;
     width: 1440px;
     height: 70px;
     top: 1977px;
-    background-color: rgba(163, 167, 255, 0.3)
+    background-color: rgba(163, 167, 255, 0.3);
+    
         /* Стили для футера */
 }
 
