@@ -16,7 +16,7 @@ header {
     width: 1440px;
     height: 70px;
     background-color: #2965f1;
-    padding:25px;
+    padding:25px 0;
     /* Стили для хедера */
 }
 
