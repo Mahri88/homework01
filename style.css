@@ -22,24 +22,22 @@ header {
 }
 
 header span {
-    font: 'inter';
-    font-weight:700px;
-    font-size:20px;
-    width: 146px;
-    height: 24px;
 
-   color: rgba(255, 255, 255, 1);
+    font-weight: 700px;
+    font-size: 20px;
+
+
+    color: rgba(255, 255, 255, 1);
     /* Стили для текста в хедере IT-INCUBATOR */
 }
 
 .main-section {
     width: 1440px;
-    height: 1024px;
+    min-height: 1024px;
 
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background-color:rgba(83, 84, 97, 1)
-    /* Стили для первой секции */
+    padding:60px 0;
+    background-color: rgba(83, 84, 97, 1)
+        /* Стили для первой секции */
 }
 
 .main-title {
@@ -49,29 +47,25 @@ header span {
     font-weight: 700px;
     font-size: 48px;
     color: rgba(48, 48, 48, 1)
-    /* Стили для заголовка в первой секции */
+        /* Стили для заголовка в первой секции */
 }
 
-.main-p{
+.main-text {
     width: 799px;
     height: 22px;
     margin-top: 208px;
-    font-weight:100px;
+    font-weight: 100px;
     font-size: 18px;
     color: rgba(48, 48, 48, 1);
     margin: 10px;
-    
+
     /* Стили для текста в первой секции */
 }
 
-.main-image{
-    width: 715px;
-    height: 508px;
-  ;
-
-   
+.main-image {
+    max-width: 715px;
     
-        /* Стили для изображения в первой секции */
+    /* Стили для изображения в первой секции */
 }
 
 
@@ -87,7 +81,7 @@ select {
     padding: 0 20px;
     font-weight: 400px;
     font-size: 16px;
-  
+
     /* Стили для выпадающего списка */
 }
 
@@ -97,10 +91,10 @@ select {
     /* Стили для заголовков во второй секции */
 }
 
-button {
+/* button {
     border: none;
     background-color: transparent;
-}
+} */
 
 .frameworks-list {
     font-weight: 700;
@@ -154,7 +148,7 @@ button {
 }
 
 .line {
-   
+
     border: 1px solid rgba(48, 48, 48, 0.3);
     width: 1440px;
     height: 0px;
@@ -162,7 +156,7 @@ button {
 }
 
 table {
-    border-collapse:collapse ;
+    border-collapse: collapse;
     margin-top: 40px;
     margin-bottom: 80px;
     width: 300px;
@@ -179,12 +173,12 @@ td {
 }
 
 footer {
-    padding:26px 0;
+    padding: 26px 0;
     width: 1440px;
     height: 70px;
     background: rgba(163, 167, 255, 0.3);
 
-        /* Стили для футера */
+    /* Стили для футера */
 }
 
 .footer-link {
@@ -194,7 +188,6 @@ footer {
     font-weight: 400px;
     font-size: 14px;
     text-decoration-line: none;
-    color:rgba(41, 101, 241, 1);
+    color: rgba(41, 101, 241, 1);
     /* Стили для футера */
 }
-
