@@ -16,27 +16,28 @@ header {
     width: 1440px;
     height: 70px;
     background-color: #2965f1;
-    padding:25px 0;
+    padding: 14px 0;
+    padding-left: 130px;
     /* Стили для хедера */
 }
 
 header span {
-    font-family: 'inter';
+    font: 'inter';
     font-weight:700px;
     font-size:20px;
     width: 146px;
     height: 24px;
-   
+   margin-top: 23px;
    color: rgba(255, 255, 255, 1);
     /* Стили для текста в хедере IT-INCUBATOR */
 }
 
 .main-section {
     width: 1418px;
-    min-height: 1024px;
+    height: 1024px;
     padding-top: 60px;
     padding-bottom: 60px;
-    background-color:rgba(83, 84, 97, 1)
+    background:rgba(83, 84, 97, 1)
     /* Стили для первой секции */
 }
 
@@ -146,7 +147,7 @@ button {
 }
 
 .line {
-   
+    margin-top: 1621px;
     border: 1px solid rgba(48, 48, 48, 0.3);
     width: 1440px;
     height: 0px;
@@ -187,9 +188,7 @@ footer {
     text-decoration: none;
     font-size: 14px;
     color: rgba(41, 101, 241, 1);
-    padding-top: 20px;
-    padding-bottom: 20px;
-   
+    left: 1px;
     /* Стили для футера */
 }
 
