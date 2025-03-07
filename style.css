@@ -22,10 +22,13 @@ header {
 }
 
 header span {
-    font-family:"Inter", sans-serif;
+    font: 'inter';
     font-weight:700px;
-    font-size:20px;
-    color:#fff;
+    size:20px;
+    width: 146px;
+    height: 24px;
+   padding-top: 23px;
+   color: rgba(255, 255, 255, 1);
     /* Стили для текста в хедере IT-INCUBATOR */
 }
 
@@ -34,28 +37,37 @@ header span {
     height: 1024px;
     padding-top: 60px;
     padding-bottom: 60px;
-    background: #fafaff;
+    background:rgba(83, 84, 97, 1)
     /* Стили для первой секции */
 }
 
 .main-title {
+    width: 552px;
+    height: 58px;
+    margin-top: 130px;
     font-weight: 700px;
     font-size: 48px;
-    color: #303030;
+    color: rgba(48, 48, 48, 1)
     /* Стили для заголовка в первой секции */
 }
 
 .main-text {
+    width: 799px;
+    height: 22px;
+    margin-top: 208px;
+    font-family: 'inter';
     font-weight:400px;
     font-size: 18px;
-    color: #303030;
+    color: rgba(48, 48, 48, 1)
     /* Стили для текста в первой секции */
 }
 
 .main-image {
-    width: 704px;
+    width: 715px;
     height: 508px;
-    top: 230px
+    top: 230px;
+    border: solid 2px rgba(83, 84, 97, 1);
+
         /* Стили для изображения в первой секции */
 }
 
