@@ -171,6 +171,9 @@ footer {
 
 .footer-link {
     font-weight: 400;
+    text-decoration: none;
+    font-size: 10px;
+    color: rgba(41, 101, 241, 1);
     /* Стили для футера */
 }
 
