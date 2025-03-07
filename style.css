@@ -186,11 +186,8 @@ footer {
     text-decoration: none;
     font-size: 10px;
     color: rgba(41, 101, 241, 1);
+    padding-top: 15px;
+    text-decoration: none;
     /* Стили для футера */
 }
 
-a {
-    padding-top: 15px;
-    color: rgba(41, 101, 241, 1);
-    text-decoration: none;
-}
